@@ -1,0 +1,179 @@
+/* Reset Default Style */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	--bg: #222222;
+	--gray: #7c7c7c;
+	--light-gray: #f7f7f7;
+	--white: #fff;
+	--blue: #2c70ff;
+	--semi-dark-blue: rgba(28, 53, 189, 0.3);
+	--dark-blue: #1c35bd;
+
+	color: --bg;
+	font-family: 'Nunito', Helvetica, Arial, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* Style */
+
+.main-info {
+	background-color: var(--dark-blue);
+	color: --white;
+}
+
+.main-info .info {
+	max-width: 960px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 10px;
+}
+
+.main-info .info p,
+.main-info .info a {
+	margin: 0 10px 10px 10px;
+	color: var(--white);
+}
+
+.menu-bg {
+	background-color: var(--blue);
+}
+
+.menu {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu ul a {
+	color: var(--white);
+	margin: 0 10px;
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+	transition: 0.3s ease-out;
+}
+
+.menu ul a:hover {
+	background-color: var(--semi-dark-blue);
+}
+
+.logo a {
+	color: var(--white);
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+/* Intro */
+
+.intro {
+	font-size: 3em;
+	line-height: 1;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 10px;
+}
+
+/* About */
+
+.about {
+	border-top: 2px solid var(--blue);
+	border-bottom: 2px solid var(--blue);
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0px;
+}
+
+.about-info {
+	flex: 2 1 300px;
+	margin: 0 10px;
+}
+
+.about-info h1 {
+	font-size: 3em;
+	margin-bottom: 0.5em;
+}
+
+.about-info p {
+	font-size: 1.25em;
+	margin-bottom: 1em;
+	color: var(--gray);
+}
+
+.about-img {
+	flex: 1 1 160px;
+	margin: 0 10px;
+}
+
+/* Products */
+
+.products {
+	max-width: 960px;
+	margin: 60px auto;
+}
+
+.products h1 {
+	font-size: 3em;
+	margin: 0 10px 60px 10px;
+}
+
+.products-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.products-item {
+	flex: 1 1 175px;
+	margin: 10px;
+}
+
+.products-item h2 {
+	font-size: 3em;
+	color: var(--gray);
+	background-color: var(--light-gray);
+	padding: 40px 20px;
+}
+
+.purple {
+	border-top: 8px solid #ae81ff;
+}
+.red {
+	border-top: 8px solid #f9265e;
+}
+.blue {
+	border-top: 8px solid #66d9eb;
+}
