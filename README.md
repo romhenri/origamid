@@ -13,18 +13,23 @@
 ### Linguagens e Tecnologias Estudadas
 
 <div display="inline_block">
-  <!-- <a href="https://github.com/romhenri/javascript" target="_blank"><img alt="JavaScript" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a> -->
+
+<a href="https://github.com/romhenri/css" target="_blank">
+  <img alt="CSS" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
+
+<a href="https://github.com/romhenri/javascript" target="_blank"><img alt="JavaScript" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
 
 <!-- <a href="https://github.com/romhenri/typeScript" target="_blank">
-  <img alt="Ts" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">    <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-</a> -->
+  <img alt="Ts" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"> -->
+
+<a href="#" target="_blank">
+<img align="center" alt="React" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+</a>
 
 <!-- <a href="https://github.com/romhenri/html" target="_blank">
   <img alt="HTML" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a> -->
 
-<a href="https://github.com/romhenri/css" target="_blank">
-  <img alt="CSS" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
-<!-- 
+<!--
 <a href="https://github.com/romhenri/css/tree/main/bootstrap" target="_blank">
   <img alt="Bootstrap" height="54" width="72" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"></a> -->
 
@@ -38,10 +43,10 @@
 
 ### Trilha de Cursos
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+Cursos Concluídos:
 
 -   [ ] HTML & CSS;
--   [ ] CSS Flex;
+-   [x] CSS Flex;
 -   [ ] CSS Grid;
 -   [ ] Bootstrap;
 -   [ ] SASS;
