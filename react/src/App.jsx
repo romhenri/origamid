@@ -1,68 +1,35 @@
-import React from 'react'
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
-const SecStart = () => {
-	var btnStarted = false
-	return (
-		<section>
-			<h1>App React</h1> <hr />
-			<p>Iniciando e testando o ambiente.</p>
-			<button>{btnStarted ? 'Terminar' : 'Começar'}</button>
-		</section>
-	)
-}
+function App() {
+  const [count, setCount] = useState(0)
 
-const luana = {
-	cliente: 'Luana',
-	idade: 27,
-	compras: [
-		{ nome: 'Notebook', preço: 'R$ 2500' },
-		{ nome: 'Geladeira', preço: 'R$ 3000' },
-		{ nome: 'Smartphone', preço: 'R$ 1500' },
-		{ nome: 'Guitarra', preço: 'R$ 3500' },
-	],
-	ativa: false,
-}
-
-const mario = {
-	cliente: 'Mario',
-	idade: 31,
-	compras: [
-		{ nome: 'Notebook', preço: 'R$ 2500' },
-		{ nome: 'Geladeira', preço: 'R$ 3000' },
-		{ nome: 'Smartphone', preço: 'R$ 1500' },
-		{ nome: 'Guitarra', preço: 'R$ 3500' },
-	],
-	ativa: true,
-}
-
-const SecData = () => {
-	const dados = mario
-	const total = dados.compras.map((item) =>
-		Number(item.preço.replace('R$ ', ''))
-	)
-
-	return (
-		<section>
-			<h1>Status de Clientes</h1> <hr />
-			<p>Nome: {dados.cliente}</p>
-			<p>Idade: {dados.idade}</p>
-			<p>
-				Ativa:
-				<span style={{ color: dados.ativa ? 'green' : 'red' }}>
-					{dados.ativa ? ' Ativa' : ' Inativa'}
-				</span>
-			</p>
-		</section>
-	)
-}
-
-const App = () => {
-	return (
-		<main>
-			<SecStart />
-			<SecData />
-		</main>
-	)
+  return (
+    <>
+      <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
 }
 
 export default App
